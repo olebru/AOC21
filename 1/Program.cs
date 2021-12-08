@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-//part 1
-
-var input = System.IO.File.ReadAllLines(".\\input.txt");
+﻿var input = System.IO.File.ReadAllLines(".\\input.txt");
 
 var data = new int[input.Length];
 
@@ -33,9 +29,6 @@ for (int i = 1; i < slidingWindows.Count; i++)
 }
 
 
-Console.WriteLine("Part 1");
-Console.WriteLine(result1);
+Console.WriteLine($"Part 1 = {result1}");
+Console.WriteLine($"Part 2 = {result2}");
 
-
-Console.WriteLine("Part 2");
-Console.WriteLine(result2);
